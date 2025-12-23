@@ -1,0 +1,575 @@
+[dotenv@17.2.3] injecting env (7) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Booking routes loaded: [Function: router] {
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  params: {},
+  strict: undefined,
+  stack: [
+    Layer {
+      handle: [Function: handle],
+      keys: [],
+      name: 'handle',
+      params: undefined,
+      path: undefined,
+      slash: false,
+      matchers: [Array],
+      route: [Route]
+    },
+    Layer {
+      handle: [Function: handle],
+      keys: [],
+      name: 'handle',
+      params: undefined,
+      path: undefined,
+      slash: false,
+      matchers: [Array],
+      route: [Route]
+    },
+    Layer {
+      handle: [Function: handle],
+      keys: [],
+      name: 'handle',
+      params: undefined,
+      path: undefined,
+      slash: false,
+      matchers: [Array],
+      route: [Route]
+    },
+    Layer {
+      handle: [Function: handle],
+      keys: [],
+      name: 'handle',
+      params: undefined,
+      path: undefined,
+      slash: false,
+      matchers: [Array],
+      route: [Route]
+    }
+  ]
+}
+About to start server on port: 5000
+Server running on port 5000
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ1MjY1OCwiZXhwIjoxNzY1NDU2MjU4fQ.0I3E-2_lb3ei-y28jFTYPbYoqNbCgep51lPH2laMJE8
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 1, iat: 1765452658, exp: 1765456258 }
+Token verify error: jwt expired
+Request URL: /api/provider/2/accept Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ1NzAzNiwiZXhwIjoxNzY1NTQzNDM2fQ.IhbAHUn7APSSxCVmGFRaWZqt-z2kT52JcJoLlH7HpYE
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 1, iat: 1765457036, exp: 1765543436 }
+Token decoded: { userId: 1, iat: 1765457036, exp: 1765543436 }
+Request URL: /api/provider/2/start Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ1NzAzNiwiZXhwIjoxNzY1NTQzNDM2fQ.IhbAHUn7APSSxCVmGFRaWZqt-z2kT52JcJoLlH7HpYE
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 1, iat: 1765457036, exp: 1765543436 }
+Token decoded: { userId: 1, iat: 1765457036, exp: 1765543436 }
+Request URL: /api/provider/2/complete Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ1NzAzNiwiZXhwIjoxNzY1NTQzNDM2fQ.IhbAHUn7APSSxCVmGFRaWZqt-z2kT52JcJoLlH7HpYE
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 1, iat: 1765457036, exp: 1765543436 }
+Token decoded: { userId: 1, iat: 1765457036, exp: 1765543436 }
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ1MjY1OCwiZXhwIjoxNzY1NDU2MjU4fQ.0I3E-2_lb3ei-y28jFTYPbYoqNbCgep51lPH2laMJE8
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 1, iat: 1765452658, exp: 1765456258 }
+Token verify error: jwt expired
+Request URL: /api/auth/login Method: POST
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Getting pending bookings...
+Query result: 0 rows
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Getting pending bookings...
+Query result: 0 rows
+Request URL: /api/bookings/3 Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/accepted Method: GET
+Request URL: /api/accepted Method: GET
+Request URL: /api/bookings/2 Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings/3 Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/accepted Method: GET
+Request URL: /api/provider/accepted Method: GET
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Getting pending bookings...
+Query result: 0 rows
+Request URL: /api/provider/accepted Method: GET
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: //api/provider/2/start Method: PATCH
+Request URL: //api/provider/3/start Method: PATCH
+Request URL: //api/provider/1/start Method: PATCH
+Request URL: //api/provider/1/start Method: PATCH
+Request URL: //api/provider/2/start Method: PATCH
+Request URL: /api/provider/3/start Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ1NzUzNiwiZXhwIjoxNzY1NTQzOTM2fQ.NA-KTQEXyAi-9oUWMwZMEJiK7-y3qBYkPmzr_saQ1Ao
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 1, iat: 1765457536, exp: 1765543936 }
+Token decoded: { userId: 1, iat: 1765457536, exp: 1765543936 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: //api/provider/2/complete Method: PATCH
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: //api/provider/3/complete Method: PATCH
+Request URL: //api/provider/3/complete Method: PATCH
+Request URL: /api/auth/login Method: POST
+Request URL: //api/provider/3/complete Method: PATCH
+Request URL: //api/provider/3/complete Method: PATCH
+Request URL: /api/provider/3/complete Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzcxNiwiZXhwIjoxNzY1NDYxMzE2fQ.Zzut08hVZL1xRVbOseg4Hr3FrbdyfZ1C0tcbCr2Igao
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457716, exp: 1765461316 }
+Token decoded: { userId: 2, iat: 1765457716, exp: 1765461316 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings Method: POST
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NTgxMywiZXhwIjoxNzY1NDU5NDEzfQ.mO6i5_nNodALeP3nVMANwR6ANoEEUDSXnuxT6jHEYuU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765455813, exp: 1765459413 }
+Token decoded: { userId: 2, iat: 1765455813, exp: 1765459413 }
+Create booking request body: { service_id: 1, booking_date: '2025-12-10 10:00:00' }
+Insert result: {
+  id: 4,
+  user_id: 2,
+  service_id: 1,
+  booking_date: '10:00:00',
+  status: 'pending'
+}
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Getting pending bookings...
+Query result: 1 rows
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings/4 Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Getting pending bookings...
+Query result: 1 rows
+Request URL: //api/provider/4/accept Method: PATCH
+Request URL: //api/provider/4/accept Method: PATCH
+Request URL: //api/provider/4/accept Method: PATCH
+Request URL: /api/provider/4/accept Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/4/start Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzcxNiwiZXhwIjoxNzY1NDYxMzE2fQ.Zzut08hVZL1xRVbOseg4Hr3FrbdyfZ1C0tcbCr2Igao
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457716, exp: 1765461316 }
+Token decoded: { userId: 2, iat: 1765457716, exp: 1765461316 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/4/complete Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzcxNiwiZXhwIjoxNzY1NDYxMzE2fQ.Zzut08hVZL1xRVbOseg4Hr3FrbdyfZ1C0tcbCr2Igao
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457716, exp: 1765461316 }
+Token decoded: { userId: 2, iat: 1765457716, exp: 1765461316 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /auth/register Method: GET
+Request URL: /api/auth/register Method: GET
+Request URL: /api/auth/register Method: GET
+Request URL: /api/auth/register Method: GET
+Request URL: /api/auth/register Method: GET
+Request URL: /api/auth/register Method: POST
+Request URL: /api/auth/register Method: POST
+Request URL: /api/auth/login Method: POST
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Getting pending bookings...
+Query result: 0 rows
+Request URL: /api/auth/login Method: POST
+Request URL: /api/bookings Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings Method: POST
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1OTU5NiwiZXhwIjoxNzY1NDYzMTk2fQ.IpI8KL6-twRZ9ph-0YxRgxDOdXew4l5n_8HLX0dLbx0
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765459596, exp: 1765463196 }
+Token decoded: { userId: 2, iat: 1765459596, exp: 1765463196 }
+Create booking request body: { service_id: 1, booking_date: '2025-12-10 10:00:00' }
+Insert result: {
+  id: 5,
+  user_id: 2,
+  service_id: 1,
+  booking_date: '10:00:00',
+  status: 'pending'
+}
+Request URL: /api/bookings Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/bookings Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Getting pending bookings...
+Query result: 1 rows
+Request URL: /api/provider/accept/5 Method: PATCH
+Request URL: /api/provider/5/accept Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/5/start Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/5/complete Method: PATCH
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/booking Method: GET
+Request URL: /api/provider/bookings Method: GET
+Request URL: /api/provider/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ1NzEwNiwiZXhwIjoxNzY1NDYwNzA2fQ.1GgpEG23tKDhbZt_mwKc1qqA1E39pTjDnu3x7y-kf-A
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765457106, exp: 1765460706 }
+Token decoded: { userId: 2, iat: 1765457106, exp: 1765460706 }
+Request URL: /api/provider/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc2NTQ1OTM1NiwiZXhwIjoxNzY1NDYyOTU2fQ.Nq66zmTqnsV3ZqZjenhYsxnxqlkmN36GfRgBlUE-ACU
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 4, iat: 1765459356, exp: 1765462956 }
+Token decoded: { userId: 4, iat: 1765459356, exp: 1765462956 }
+Getting pending bookings...
+Query result: 0 rows
+Request URL: /api/auth/login Method: POST
+Request URL: /api/auth/login Method: POST
+Request URL: /api/auth/login Method: POST
+Request URL: /api/booking/ Method: POST
+Auth header: undefined
+Auth failed: no token
+Request URL: /api/booking/ Method: POST
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/ Method: POST
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Create booking request body: { service_id: 1, booking_date: '10:00:00' }
+Insert result: {
+  id: 6,
+  user_id: 2,
+  service_id: 1,
+  booking_date: '10:00:00',
+  status: 'pending',
+  provider_id: null,
+  accepted_at: null,
+  started_at: null,
+  completed_at: null
+}
+Request URL: /api/booking Method: GET
+Auth header: undefined
+Auth failed: no token
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/ALL Method: GET
+Request URL: /api/booking/provider Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc2NTQ2MTgyNiwiZXhwIjoxNzY1NDY1NDI2fQ.l3MM6rLF9J9t33B6zFAmX69kEmr5oiWxGf3NPqMI860
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, iat: 1765461826, exp: 1765465426 }
+Token decoded: { userId: 3, iat: 1765461826, exp: 1765465426 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/6/accept Method: PUT
+Request URL: /api/booking/provider/6/accept Method: PUT
+Request URL: /api/booking/provider/6/accept Method: PATCH
+Request URL: /api/booking/provider/6/accept Method: PUT
+Request URL: /api/booking/provider/PENDING Method: PUT
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/pending Method: PUT
+Request URL: /api/booking/provider/pending Method: PUT
+Request URL: /api/booking/provider/pending Method: PUT
+Request URL: /api/booking/provider/pending Method: PUT
+Request URL: /api/booking/provider/pending Method: PUT
+Request URL: /api/booking/provider/pending Method: PUT
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/bookingS/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/auth/login Method: POST
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking/ALL Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking/ Method: POST
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Create booking request body: { service_id: 1, booking_date: '10:00:00' }
+Insert result: {
+  id: 7,
+  user_id: 2,
+  service_id: 1,
+  booking_date: '10:00:00',
+  status: 'pending',
+  provider_id: null,
+  accepted_at: null,
+  started_at: null,
+  completed_at: null
+}
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc2NTQ2Mjk0MywiZXhwIjoxNzY1NDY2NTQzfQ.3J-A7emv-Cq5KFGqI1YAY1E8y2KA1kYyKflu_rDvafA
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, iat: 1765462943, exp: 1765466543 }
+Token decoded: { userId: 3, iat: 1765462943, exp: 1765466543 }
+Request URL: /api/booking/ Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc2NTQ2Mjk0MywiZXhwIjoxNzY1NDY2NTQzfQ.3J-A7emv-Cq5KFGqI1YAY1E8y2KA1kYyKflu_rDvafA
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, iat: 1765462943, exp: 1765466543 }
+Token decoded: { userId: 3, iat: 1765462943, exp: 1765466543 }
+Request URL: /api/booking/PENDING Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc2NTQ2Mjk0MywiZXhwIjoxNzY1NDY2NTQzfQ.3J-A7emv-Cq5KFGqI1YAY1E8y2KA1kYyKflu_rDvafA
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, iat: 1765462943, exp: 1765466543 }
+Token decoded: { userId: 3, iat: 1765462943, exp: 1765466543 }
+Request URL: /api/booking/PENDING Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc2NTQ2Mjk0MywiZXhwIjoxNzY1NDY2NTQzfQ.3J-A7emv-Cq5KFGqI1YAY1E8y2KA1kYyKflu_rDvafA
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, iat: 1765462943, exp: 1765466543 }
+Token decoded: { userId: 3, iat: 1765462943, exp: 1765466543 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking Method: GET
+Auth header: undefined
+Auth failed: no token
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJwcm92aWRlciIsImlhdCI6MTc2NTQ2MjgyOSwiZXhwIjoxNzY1NTQ5MjI5fQ.x4Z8qXhpkhpVS8avTKgAukOC5Dl99Vw-l6KAn2KfqTw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Token decoded: { userId: 3, role: 'provider', iat: 1765462829, exp: 1765549229 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/ Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/pending Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/all Method: GET
+Request URL: /api/booking/provider/all Method: GET
+Request URL: /api/booking/provider/all Method: GET
+Request URL: /api/booking/all Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/ Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking Method: GET
+Auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc2NTQ2MTYxMSwiZXhwIjoxNzY1NDY1MjExfQ.GhjDHXI9CTIezNmYXCQoYUWzSylwMSA5Pg7nNPKR_Uw
+jwtToken (truncated): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...
+jwt decode (no verify): { userId: 2, iat: 1765461611, exp: 1765465211 }
+Token decoded: { userId: 2, iat: 1765461611, exp: 1765465211 }
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/auth/login Method: POST
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
+Request URL: /api/booking/provider/pending Method: GET
