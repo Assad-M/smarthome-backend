@@ -2,10 +2,13 @@
   "name": "smart-home-backend",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
+  
+"scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js"
+}
 
-    "start": "node server.js"
-  },
+  ,
   
 
   "dependencies": {
