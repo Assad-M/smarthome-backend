@@ -1,23 +1,15 @@
-import pg from "pg";
-import dotenv from "dotenv";
+const { Pool } = require("pg");
 
-dotenv.config();
-
-const { Pool } = pg;
-
+// Use Render's DATABASE_URL environment variable if available, otherwise fallback to local
 const pool = new Pool({
-  user: process.env.DB_USER,
-  host: process.env.DB_HOST,
-  database: process.env.DB_NAME,
-  password: process.env.DB_PASSWORD,
-  port: process.env.DB_PORT,
+  connectionString: process.env.DATABASE_URL || "postgresql://smarthome_backend_user:saTVC4GZAdnc8nH4NHEICYWcjoQg3hs3@dpg-d57d7apr0fns73fkds5g-a.oregon-postgres.render.com/smarthome_backend",
+  ssl: {
+    rejectUnauthorized: false, // Required for Render Postgres
+  },
 });
 
-pool.on("error", (err) => {
-  console.error("Unexpected PG client error", err);
+pool.on("connect", () => {
+  console.log("Connected to the database successfully!");
 });
 
-export default {
-  query: (text, params) => pool.query(text, params),
-  pool,
-};
+module.exports = pool;
