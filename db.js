@@ -1,4 +1,6 @@
-const { Pool } = require("pg");
+
+import pkg from "pg";
+const { Pool } = pkg;
 
 // Use Render's DATABASE_URL environment variable if available, otherwise fallback to local
 const pool = new Pool({
