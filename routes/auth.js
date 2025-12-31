@@ -76,6 +76,11 @@ router.post("/login", async (req, res) => {
       process.env.JWT_SECRET,
       { expiresIn: "2h" }
     );
+await db.query(
+  `INSERT INTO auth_logs (user_id, action, ip_address)
+   VALUES ($1, 'login', $2)`,
+  [user.id, req.ip]
+);
 
     res.json({
       success: true,

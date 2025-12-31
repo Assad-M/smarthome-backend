@@ -124,5 +124,10 @@ router.delete('/bookings/:id', auth, roleCheck(['admin']), async (req, res) => {
   const result = await db.query('DELETE FROM bookings WHERE id=$1 RETURNING *', [req.params.id]);
   res.json({ message: 'Booking deleted', data: result.rows[0] });
 });
+await db.query(
+  `INSERT INTO auth_logs (user_id, action, ip_address)
+   VALUES ($1, 'logout', $2)`,
+  [req.user.id, req.ip]
+);
 
 export default  router;

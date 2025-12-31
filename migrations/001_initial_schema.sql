@@ -118,6 +118,9 @@ ALTER SEQUENCE public.reviews_id_seq OWNED BY public.reviews.id;
 ALTER TABLE ONLY public.reviews ALTER COLUMN id SET DEFAULT nextval('public.reviews_id_seq'::regclass);
 ALTER TABLE ONLY public.reviews ADD CONSTRAINT reviews_pkey PRIMARY KEY (id);
 
+
+
+
 CREATE TABLE public.service_categories (
     id integer NOT NULL,
     name character varying(255) NOT NULL,
@@ -197,3 +200,14 @@ ALTER TABLE ONLY public.reviews ADD CONSTRAINT reviews_user_id_fkey FOREIGN KEY 
 
 ALTER TABLE ONLY public.services ADD CONSTRAINT services_category_id_fkey FOREIGN KEY (category_id) REFERENCES public.service_categories(id);
 ALTER TABLE ONLY public.services ADD CONSTRAINT services_provider_id_fkey FOREIGN KEY (provider_id) REFERENCES public.users(id);
+
+-- =========================
+-- AUTH LOGS TABLE
+-- =========================
+CREATE TABLE auth_logs (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+  action VARCHAR(20) NOT NULL,
+  ip_address VARCHAR(50),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
